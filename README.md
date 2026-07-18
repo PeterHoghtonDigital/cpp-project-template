@@ -144,6 +144,7 @@ Use the terminal command: `git config --global user.email youremail@example.com`
 
 ```
 .cache/
+.github/
 .vscode/
 ├─ launch.json
 ├─ settings.json
@@ -227,4 +228,4 @@ The project also defines configuration-dependent macros:
 This project is primarily developed and tested on **Linux**.
 Windows and macOS are supported but testing on these platforms is more limited.
 
-If you encounter problems, please submit an issue on GitHub and I will investigate when possible.
+If you encounter problems or would like to suggest an improvement, please submit an [issue](https://github.com/PeterHoghtonDigital/cpp-project-template/issues) on GitHub and I will investigate when possible.

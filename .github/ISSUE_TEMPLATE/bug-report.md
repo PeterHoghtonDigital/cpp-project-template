@@ -17,7 +17,7 @@ Before submitting a bug report:
 
 ## Environment
 
-- OS *(Windows, macOS, Linux)*:
+- OS *(Windows/macOS/Linux)*:
 - Kernel version:
 - VSCodium version:
 - Clang version:
