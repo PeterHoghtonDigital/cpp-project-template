@@ -20,6 +20,7 @@
     // Excludes generated files from search results
     "search.exclude": {
         "**/.cache": true,
+        "**/.github": true,
         "**/.vscode": true,
         "**/Build": true,
         "compile_commands.json": true,
