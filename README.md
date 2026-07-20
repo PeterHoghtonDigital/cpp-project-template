@@ -160,7 +160,6 @@ Source/
 .gitignore
 CMakeLists.txt
 CMakePresets.json
-compile_commands.json
 LICENSE.md
 README.md
 ```
