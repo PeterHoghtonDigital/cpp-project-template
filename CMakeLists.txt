@@ -8,7 +8,7 @@
 cmake_minimum_required(VERSION 3.25)
 
 # Set the application name and version
-project(cpp-project-template VERSION 1.0.0 LANGUAGES CXX)
+project(cpp-project-template VERSION 1.0.0 LANGUAGES C CXX)
 
 # Set C++ Language Standard
 set(CMAKE_CXX_STANDARD 20)
@@ -23,7 +23,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # Add Source files
-file(GLOB SRC CONFIGURE_DEPENDS "Source/*.cpp")
+file(GLOB_RECURSE SRC CONFIGURE_DEPENDS "Source/*.cpp")
 # Create Executable
 add_executable(cpp-project-template ${SRC})
 
