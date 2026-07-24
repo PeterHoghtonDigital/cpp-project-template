@@ -11,7 +11,8 @@ Build/*
 
 # Third party libraries
 External/*
-!External/.gitkeep
+!External/.clang-format
+!External/.clang-tidy
 
 # Local data and large binary assets
 Data/*
